@@ -10,12 +10,12 @@ This module is very useful for running mongodb as part of a Gulp/Grunt testing t
 
 Install [mongodb](https://www.mongodb.org/downloads)
 
-Install the module with: `npm install node-embedded-mongodb`
+Install the module with: `npm install node-mongodb-start-stop`
 
 Then, use it:
 
 ```js
-var embeddedMongoDB = require('node-embedded-mongodb');
+var embeddedMongoDB = require('node-mongodb-start-stop');
 
 var dbPath = '/path/to/data/db/';
 var logPath = '/path/to/mongod.log';
